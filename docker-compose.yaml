@@ -2,10 +2,10 @@ version: '3'
 
 services:
   postgres:
-    container_name: pg_parkapi
+    container_name: pgbookmanager
     image: 'postgres:latest'
     environment:
-      - 'POSTGRES_DB=parkapi'
+      - 'POSTGRES_DB=bookmanager'
       - 'POSTGRES_PASSWORD=root'
       - 'POSTGRES_USER=admin'
     ports:
